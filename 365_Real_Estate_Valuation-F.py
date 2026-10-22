@@ -8,6 +8,9 @@ import json
 import joblib
 import pathlib
 
+#clearing the cache
+st.cache_resource.clear()
+
 # Section 2: Configure Streamlit page with title, layout and luxury icon
 st.set_page_config(page_title="365 Real Estate | Burj Khalifa Luxury Valuation", layout="wide", page_icon="🏙️")
 
